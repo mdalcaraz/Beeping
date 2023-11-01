@@ -48,15 +48,7 @@ php artisan queue:work
 ````
 
 
-Para ejecutar los jobs asíncronos 
-
-
-
-
-
-
-
-
+##E Enunciado
 
 ````
 
