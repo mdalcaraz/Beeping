@@ -33,7 +33,7 @@ class CalculateTotalCost implements ShouldQueue
      */
     public function handle()
     {
-        sleep(10); //Verificacion de Asincronismo
+        sleep(5); //Verificacion de Asincronismo
         $totalCost = 0;
         $orderLines = OrderLine::with('order', 'product')->get();
         foreach ($orderLines as $line) {
