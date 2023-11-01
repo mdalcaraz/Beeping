@@ -2,9 +2,9 @@
     <table class="table table-dark">
         <thead>
             <tr>
-                <th scope="row">Oder Ref</th>
-                <th>Customer Name</th>
-                <th>Total Qty</th>
+                <th scope="row">Ref de Orden</th>
+                <th>Nombre de Cliente</th>
+                <th>Cantidad Total de Artículos</th>
             </tr>
         </thead>
         <tbody>
