@@ -12,4 +12,9 @@ class Order extends Model
         'order_ref',
         'customer_name',
     ];
+
+    public function orderLines()
+    {
+        return $this->hasMany(OrderLine::class);
+    }
 }
