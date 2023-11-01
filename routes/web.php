@@ -16,5 +16,5 @@ use App\Jobs\CalculateTotalCost;
 
 Route::get('/', function () {
     CalculateTotalCost::dispatch();
-    return view('welcome');
+    return view('index');
 });
