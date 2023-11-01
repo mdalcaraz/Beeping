@@ -48,7 +48,7 @@ php artisan queue:work
 ````
 
 
-##E Enunciado
+## Enunciado
 
 ````
 
