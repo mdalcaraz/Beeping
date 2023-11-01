@@ -16,5 +16,13 @@ use App\Jobs\CalculateTotalCost;
 
 Route::get('/', function () {
     CalculateTotalCost::dispatch();
-    return view('index');
-});
+    return view('livewire.orderResume');
+})->name("orderResume");
+
+Route::get('/OrderDetail', function () {
+    return view('livewire.orderDetail');
+})->name("OrderDetail");
+
+Route::get('/ProductList', function () {
+    return view('livewire.productList');
+})->name("ProductList");
